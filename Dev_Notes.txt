@@ -1,0 +1,13 @@
+10-03-2017
+
+This stackoverflow seems interesting because it might allow me 
+to add the script to the HTML, programatically. This way
+I might be able to hide the API key like in the other project.
+
+http://stackoverflow.com/questions/20386782/google-maps-api-v3-marker-google-is-undefined
+
+12-10-2017
+
+Was able to add the API link into the HTML with the solution found in the link mentioned above. This way I can have the project on GitHub without exposing the API key.
+
+Had to place the Autocomplete code inside the $( window ).on( "load", function() for the "google" keyword to be recognized.
